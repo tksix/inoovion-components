@@ -1,0 +1,398 @@
+:root {
+  --indigo: #6366f1 !important;
+  --indigo-dark: #4f46e5 !important;
+  --gray-border: #e2e8f0 !important;
+  --slate-50: #f8fafc !important;
+  --slate-100: #f1f5f9 !important;
+  --text: #171717 !important;
+}
+
+/* Breiter & flacher Stil unten links */
+.klaro .cookie-modal .cm-modal.cm-klaro {
+  max-width: 700px !important;
+  padding: 1rem 1.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background: #fff !important;
+  color: var(--text) !important;
+  border-radius: 0.75rem !important;
+  border: none !important;
+  box-shadow: none !important;
+  z-index: 9999 !important;
+  overflow-y: auto !important;
+  max-height: 85vh !important;
+}
+
+.klaro .cookie-modal .cm-header {
+  border-bottom: none !important;
+  padding: 0 0 0.5rem 0 !important;
+}
+
+.klaro .cookie-modal .cm-header h1 {
+  font-size: 1.1rem !important;
+  color: var(--text) !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+}
+
+.klaro .cookie-modal .cm-header p span span {
+  color: #64748b !important;
+  font-size: 0.85rem !important;
+  margin-top: 0.25rem !important;
+}
+
+.klaro .cookie-modal .cm-body {
+  padding: 0.5rem 0 !important;
+}
+
+.klaro .cookie-modal .cm-body .cm-purpose,
+.klaro .cookie-modal .cm-body .cm-toggle-all {
+  border: none !important;
+  background: transparent;
+  border-radius: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  padding: none;
+}
+
+.klaro .cookie-modal .cm-list-title {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: var(--text) !important;
+}
+
+.klaro .cookie-modal .cm-list-description {
+  font-size: 0.75rem !important;
+  color: #64748b !important;
+}
+
+.klaro .cookie-modal .cm-caret a {
+  color: var(--indigo) !important;
+  font-size: 0.75rem !important;
+}
+
+.klaro .cookie-modal .cm-footer {
+  padding: 0.5rem 0 0 0 !important;
+  border-top: none !important;
+}
+
+.klaro .cookie-modal .cm-footer-buttons {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 0.5rem !important;
+  justify-content: flex-end !important;
+}
+
+.klaro .cookie-modal .cm-btn {
+  flex: 0 0 auto !important;
+  padding: 0.5rem 0.8rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.klaro .cookie-modal .cm-btn-decline {
+  background: white !important;
+  color: var(--text) !important;
+  border: 1px solid var(--gray-border) !important;
+}
+
+.klaro .cookie-modal .cm-btn-accept {
+  background: var(--indigo) !important;
+  background: #171717 !important;
+  color: white !important;
+}
+
+.klaro .cookie-modal .cm-btn-accept-all {
+  background: var(--indigo) !important;
+
+  color: white !important;
+}
+
+.klaro .cookie-modal .cm-btn:hover {
+  opacity: 0.95 !important;
+  transform: scale(1.02) !important;
+}
+
+/* Slider-Stil */
+.klaro .cookie-modal .slider {
+  background-color: #cbd5e1 !important;
+  box-shadow: none !important;
+}
+
+.klaro .cookie-modal .cm-list-input:checked + .cm-list-label .slider {
+  background-color: var(--indigo) !important;
+}
+
+.klaro .cookie-modal .cm-list-label .slider::before {
+  background-color: white !important;
+}
+
+/* Klaro Branding verstecken */
+.klaro .cookie-modal .cm-powered-by {
+  display: none !important;
+}
+
+.klaro .cookie-modal .cm-switch {
+  height: 25px !important;
+}
+
+.klaro .cookie-modal .cm-list-label .slider {
+  width: 45px !important;
+}
+
+.klaro .cookie-modal .cm-list-label .slider::before {
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.klaro a {
+  color: var(--indigo) !important;
+}
+
+.klaro
+  .cookie-modal
+  .cm-modal
+  .cm-body
+  ul.cm-purposes
+  li.cm-purpose.cm-toggle-all {
+  padding-top: 0 !important;
+}
+
+.cookie-notice {
+  z-index: 9999 !important;
+  max-width: 550px !important;
+  padding: 1rem 1.5rem !important;
+  background-color: #fff !important;
+  color: var(--text) !important;
+  border-radius: 0.75rem !important;
+  border: solid #171717 1px !important;
+  box-shadow: none !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.9rem !important;
+}
+
+.cookie-notice .cn-body p {
+  margin: 0 0 0.5rem 0 !important;
+  color: #64748b !important;
+  font-size: 0.85rem !important;
+}
+
+.cookie-notice .cn-body {
+  padding: 0 !important;
+}
+
+.cookie-notice .cn-changes {
+  color: var(--text) !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  text-decoration: none !important;
+}
+
+.cookie-notice .cn-ok {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+}
+
+.cookie-notice .cm-link {
+  font-size: 0.75rem !important;
+  color: var(--indigo) !important;
+  font-weight: bold;
+  flex: 1 1 auto !important;
+}
+
+.cookie-notice .cn-buttons {
+  display: flex !important;
+  gap: 0.5rem !important;
+  flex: 0 0 auto !important;
+}
+
+.cookie-notice .cm-btn {
+  padding: 0.5rem 0.8rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.cookie-notice .cm-btn-success {
+  background-color: var(--indigo) !important;
+  color: white !important;
+}
+
+.cookie-notice .cm-btn-danger {
+  background-color: white !important;
+  color: var(--text) !important;
+  border: 1px solid var(--gray-border) !important;
+}
+
+.cookie-notice .cm-btn:hover {
+  opacity: 0.95 !important;
+  transform: scale(1.02) !important;
+}
+
+@media (max-width: 480px) {
+  .klaro .cookie-modal .cm-modal.cm-klaro {
+    bottom: 0px !important;
+    left: 2.5% !important;
+    width: 95% !important;
+    height: fit-content;
+    max-width: 95% !important;
+    padding: 1.2rem !important;
+    border-radius: 0.75rem !important;
+  }
+
+  .klaro .cookie-modal .cm-footer-buttons {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+  }
+
+  .klaro .cookie-modal .cm-btn {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 0.8rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+
+  .klaro .cookie-modal .cm-header p span span {
+    font-size: 0.8rem !important;
+  }
+
+  .klaro .cookie-modal .cm-list-title {
+    font-size: 0.8rem !important;
+  }
+
+  .klaro .cookie-modal .cm-list-description {
+    font-size: 0.7rem !important;
+  }
+
+  .klaro .cookie-modal .cm-caret a {
+    font-size: 0.7rem !important;
+  }
+
+  .cookie-notice {
+    left: 2.5%;
+    bottom: 0;
+    width: 95%;
+    padding: 0.75rem 1rem;
+  }
+
+  .cookie-notice .cn-ok {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cookie-notice .cm-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .cookie-notice .cm-link {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .cookie-notice {
+    left: 0% !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+  }
+
+  .cookie-notice .cn-ok {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .cookie-notice .cm-btn {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 0.8rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+
+  .cookie-notice .cm-link {
+    font-size: 0.8rem !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+
+.klaro.cm-as-context-notice .context-notice {
+  padding: 0.7rem !important;
+  background-color: #fff !important;
+  color: var(--text) !important;
+  border-radius: 0.75rem !important;
+  border: solid #171717 1px !important;
+  box-shadow: none !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.9rem !important;
+}
+
+.klaro.cm-as-context-notice .context-notice p {
+  color: #64748b !important;
+}
+
+.klaro.cm-as-context-notice .cm-buttons {
+  margin-top: 1.5rem !important;
+  display: flex !important;
+  gap: 0.5rem !important;
+  flex-wrap: wrap !important;
+}
+
+.klaro.cm-as-context-notice .cm-btn {
+  padding: 0.5rem 0.8rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.klaro.cm-as-context-notice .cm-btn-success {
+  background-color: var(--text) !important;
+  color: white !important;
+}
+
+.klaro.cm-as-context-notice .cm-btn-success-var {
+  background-color: var(--indigo) !important;
+  color: white !important;
+}
+
+.klaro.cm-as-context-notice .cm-btn:hover {
+  opacity: 0.95 !important;
+  transform: scale(1.02) !important;
+}
+
+@media (max-width: 480px) {
+  .klaro.cm-as-context-notice .context-notice {
+    left: 0% !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+  }
+
+  .klaro.cm-as-context-notice .cm-btn {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 0.8rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+}
